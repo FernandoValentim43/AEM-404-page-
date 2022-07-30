@@ -14,5 +14,6 @@ export const StyledText = styled.header`
 
     @media (max-width: 780px) {
         font-size: 0.8rem;
+        line-height: normal;
     }
 `;

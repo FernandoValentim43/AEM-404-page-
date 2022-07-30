@@ -1,16 +1,23 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: left;
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
 
- 
+  margin-bottom: 100px;
+  @media (max-width: 780px) {
+    margin-bottom: 10px;
+  }
 `;
 
 export const HeaderText = styled.h3`
-  font-family: 'Inconsolata', monospace !important;
+  font-family: "Inconsolata", monospace !important;
   text-transform: uppercase;
   color: #333333;
   font-style: normal;
@@ -22,5 +29,5 @@ export const HeaderText = styled.h3`
   @media (max-width: 780px) {
     font-size: 1rem;
     padding: 0rem 1rem;
-}
+  }
 `;
