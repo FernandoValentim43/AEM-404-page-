@@ -8,9 +8,10 @@ export const StyledButton = styled.button`
     line-height: 21px;
     color: white;
    
-    width: 216px;
-    height: 68px;
+    width: 190px;
+    height: 66px;
     border: none;
+
     text-transform: uppercase;
     background-color: #333333;
     cursor: pointer;

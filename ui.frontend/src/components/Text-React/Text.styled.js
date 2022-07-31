@@ -5,16 +5,17 @@ export const StyledText = styled.header`
     font-family: 'Space Mono', monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 2rem;
     letter-spacing: -0.035em;
 
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
 
 
 
     @media (max-width: 780px) {
-        font-size: 0.8rem;
+        font-size: 1rem;
         line-height: normal;
+        margin-bottom: 3.2rem;
     }
 `;

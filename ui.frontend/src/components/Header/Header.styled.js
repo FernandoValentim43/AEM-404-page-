@@ -10,7 +10,7 @@ export const HeaderContainer = styled.header`
   text-transform: uppercase;
   color: #333333;
 
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   @media (max-width: 780px) {
     margin-bottom: 10px;
   }
@@ -24,10 +24,9 @@ export const HeaderText = styled.h3`
   font-weight: 400;
   font-size: 1.3rem;
   margin: 0;
-  padding: 0.5rem 3rem;
+  padding: 1rem 1rem;
 
   @media (max-width: 780px) {
-    font-size: 1rem;
     padding: 0rem 1rem;
   }
 `;

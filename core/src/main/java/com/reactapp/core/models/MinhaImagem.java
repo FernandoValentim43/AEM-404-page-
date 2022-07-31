@@ -25,11 +25,11 @@ import org.osgi.annotation.versioning.ConsumerType;
 
 
 /**
- * Defines the {@code MeuComponente} Sling Model used for the {@code reactapp/components/meu-componente} component.
+ * Defines the {@code MinhaImagem} Sling Model used for the {@code reactapp/components/minha-imagem} component.
  * 
  */
 @ConsumerType
-public interface MeuComponente
+public interface MinhaImagem
     extends ComponentExporter
 {
 

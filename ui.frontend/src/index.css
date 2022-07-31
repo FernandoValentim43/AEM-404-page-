@@ -45,3 +45,22 @@ p,
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   color: #000000;
 }
+
+body #spa-root {
+  height: 100%;
+}
+body #spa-root > div {
+  height: 100%;
+}
+body #spa-root > div > div {
+  height: 100%;
+}
+body #spa-root > div > div > .aem-page.page.spa.basicpage {
+  height: 100%;
+}
+body #spa-root > div > div > div > div > div > div{
+  height: 100%;
+}
+body #spa-root > div > div > div > div > div > div > div{
+  height: 100%;
+}

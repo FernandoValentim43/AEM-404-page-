@@ -23,7 +23,7 @@ import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
 import com.adobe.cq.wcm.core.components.models.Image;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.reactapp.core.models.MeuComponente;
+import com.reactapp.core.models.MinhaImagem;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.Exporter;
@@ -34,12 +34,12 @@ import org.apache.sling.models.annotations.injectorspecific.SlingObject;
 @Model(adaptables = {
     SlingHttpServletRequest.class
 }, adapters = {
-    MeuComponente.class,
+    MinhaImagem.class,
     ComponentExporter.class
-}, resourceType = "reactapp/components/meu-componente")
+}, resourceType = "reactapp/components/minha-imagem")
 @Exporter(name = ExporterConstants.SLING_MODEL_EXPORTER_NAME, extensions = ExporterConstants.SLING_MODEL_EXTENSION)
-public class MeuComponenteImpl
-    implements MeuComponente
+public class MinhaImagemImpl
+    implements MinhaImagem
 {
 
     @ChildResourceFromRequest(injectionStrategy = InjectionStrategy.OPTIONAL)

@@ -14,6 +14,7 @@ export const StyledTitle = styled.header`
 
     @media (max-width: 780px) {
         font-size: 2.5rem;
-        line-height: 2rem;
+        line-height: 3rem;
+        margin-bottom: 2.3rem;
     }
 `;
