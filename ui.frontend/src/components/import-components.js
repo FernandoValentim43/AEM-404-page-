@@ -24,6 +24,8 @@ import MeuComponente from "./MeuComponente";
 import "./Header/Header"
 import "./Text-React/Text"
 import "./Title/Title"
+import "./Button/Button"
+
 
 import { MapTo } from "@adobe/aem-react-editable-components";
 

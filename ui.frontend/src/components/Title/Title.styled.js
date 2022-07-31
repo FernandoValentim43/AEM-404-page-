@@ -6,14 +6,14 @@ export const StyledTitle = styled.header`
     font-size: 3rem;
     font-weight: 700;
     letter-spacing: -0.035em;
-    line-height: 5rem;
-    margin: 0 0 2.2rem 0;
+    line-height: 4rem;
+
+    margin-bottom: 2.5rem;
 
    
 
     @media (max-width: 780px) {
-        margin: 0 0 1.8rem 0;
         font-size: 2.5rem;
-        line-height: 4.5rem;
+        line-height: 2rem;
     }
 `;
