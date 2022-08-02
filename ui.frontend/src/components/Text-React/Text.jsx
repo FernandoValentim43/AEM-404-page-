@@ -4,7 +4,7 @@ import {StyledText} from "./Text.styled.js";
 
 export const Text = (props) => {
   return (
-      <StyledText className="header">{props.text ? props.text : 'Insira um texto'}</StyledText>
+      <StyledText className="text">{props.text ? props.text : 'Insira um texto'}</StyledText>
   );
 };
 

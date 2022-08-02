@@ -10,7 +10,11 @@ export const StyledFooter = styled.footer`
     font-weight: 500;
 
     text-align: center;
-    padding: 1.2rem;
+    padding-top: 2rem;
+
+    @media (max-width: 570px) {
+        padding: 1rem;
+    }
     
    
 `;
