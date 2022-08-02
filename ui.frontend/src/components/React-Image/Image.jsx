@@ -4,7 +4,7 @@ import { ImageStyle } from './Image.styled'
 
 const Image = ({image}) => {
   return (
-    <ImageStyle src={image ? image.src : 'https://via.placeholder.com/150'}/>
+    <ImageStyle src={image ? image.src : 'https://i.imgur.com/svxYaha.png'}/>
   )
 }
 

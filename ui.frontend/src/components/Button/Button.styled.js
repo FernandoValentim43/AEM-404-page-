@@ -4,6 +4,8 @@ export const StyledButton = styled.button`
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
+
+    
     font-size: 14px;
     line-height: 21px;
     color: white;
@@ -15,4 +17,6 @@ export const StyledButton = styled.button`
     text-transform: uppercase;
     background-color: #333333;
     cursor: pointer;
+
+    margin-bottom: 140px;
 `;
